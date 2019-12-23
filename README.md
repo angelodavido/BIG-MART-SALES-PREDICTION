@@ -1,7 +1,6 @@
 # Bundas Store Sales Prediction Model
 
-### This repository contains a series of notebooks with which we try to predict the leading factors that influence the number of 
-sales that a store will recieve.
+#### This repository contains a series of notebooks with which we try to predict the leading factors that influence the number of sales that a store will recieve.
 
 ### [Problem Statement](STRATHMORE DATATHON CHALLENGE.pdf)
 
