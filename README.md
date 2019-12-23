@@ -1,4 +1,4 @@
-# Bundas Store Sales Prediction Model
+# Bundas Store Sales Prediction 
 
 #### This repository contains a series of notebooks with which we try to predict the leading factors that influence the number of sales that a store will recieve.
 
