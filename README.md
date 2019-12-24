@@ -12,6 +12,8 @@
 
 - After analysing our dataset, we find that only 1.1% of the Item_IDs are repeated in the dataset which means that 98.9% of the items for sale in these stores are unique.
 
+- The most sold items were Fruits and Vegetables followed by Snack Foods while the least sold items were seafood.
+
 
 
 ### [2nd Notebook (Feature Engineering)]([Notebook2]Feature_Engineering_and_Encoding.ipynb)
