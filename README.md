@@ -14,7 +14,8 @@
 
 - The most sold items were Fruits and Vegetables followed by Snack Foods while the least sold items were seafood.
 
-![Most sold items](https://raw.githubusercontent.com/angelodavido/DataTho/master/notebook_outputs/category.png "Item sales by Category")
+<img src="https://raw.githubusercontent.com/angelodavido/DataTho/master/notebook_outputs/category.png" width="48" height="35">
+
 
 - The location of the store had negligble influence on the sales of items, however in regards to fat content, low fat goods were the most sold.
 
