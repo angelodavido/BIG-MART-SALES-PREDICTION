@@ -2,13 +2,13 @@
 
 #### This repository contains a series of notebooks with which we try to predict the leading factors that influence the number of sales that a store will recieve.
 
-## [Problem Statement](STRATHMOREDATATHONCHALLENGE.pdf)
+### [Problem Statement](STRATHMOREDATATHONCHALLENGE.pdf)
 
 - Bundas is a supermarket that has stores all over the country and has collected sales data for over 1000 products across its stores. You have been hired as a data scientist to build a predictive model to find out the sales of each product at a particular store.
 
 - They plan on using this model to understand the properties of products and stores that play a paramount role in increasing sales.
 
-## [1st Notebook (Exploratory Analysis)]([Notebook1]Explanatory_Data_Analysis.ipynb)
+### [1st Notebook (Exploratory Analysis)]([Notebook1]Explanatory_Data_Analysis.ipynb)
 
 - After analysing our dataset, we find that only 1.1% of the Item_IDs are repeated in the dataset which means that 98.9% of the items for sale in these stores are unique.
 
@@ -34,8 +34,21 @@
 
 
 
-## [2nd Notebook (Feature Engineering)]([Notebook2]Feature_Engineering_and_Encoding.ipynb)
+### [2nd Notebook (Feature Engineering)]([Notebook2]Feature_Engineering_and_Encoding.ipynb)
 
-## [3rd Notebook (Random Forest Model)]([Notebook3]RandomForestModel.ipynb)
+- After the missing data has either been filled or their rows removed from the "dealing with NAs.R" code in the R code folder, 
+we encode the categorical values as our model only takes in numerical data as input.
 
-## [4th Notebook (XG Boost Model)]([Notebook4]XGBoostModel.ipynb)
+- The missing data (rows with missing features) make up less than 30% of our dataset and we therefore so it fit to remove it. This improved the performance of the model by about 16%.
+
+- Due to the low number of features, they were all retained in the final dataset used to build the model. Both the final test and train dataset were renamed to train_modified and test_modified.
+
+#### This is done on both test and train data.
+
+
+### [3rd Notebook (Random Forest Model)]([Notebook3]RandomForestModel.ipynb)
+
+- As this was a regression problem, we decided to start with a decision tree which was heavily overfitting. To
+
+
+### [4th Notebook (XG Boost Model)]([Notebook4]XGBoostModel.ipynb)
