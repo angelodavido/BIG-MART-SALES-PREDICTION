@@ -51,8 +51,8 @@ we encode the categorical values as our model only takes in numerical data as in
 - As this was a regression problem, we decided to start with a decision tree which was heavily overfitting. To counter this, we used a random forest which gave us the Test and OOB score below:
 
 ```
-Test score: 0.5336220678345333
-OOB score: 0.5524979432386299
+Train score: 0.6544021100663768
+OOB score: 0.5832050004433629
 ```
 
 
