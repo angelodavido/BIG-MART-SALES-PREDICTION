@@ -48,7 +48,16 @@ we encode the categorical values as our model only takes in numerical data as in
 
 ### [3rd Notebook (Random Forest Model)]([Notebook3]RandomForestModel.ipynb)
 
-- As this was a regression problem, we decided to start with a decision tree which was heavily overfitting. To
+- As this was a regression problem, we decided to start with a decision tree which was heavily overfitting. To counter this, we used a random forest which gave us the Test and OOB score below:
+
+```
+Test score: 0.5336220678345333
+OOB score: 0.5524979432386299
+```
 
 
 ### [4th Notebook (XG Boost Model)]([Notebook4]XGBoostModel.ipynb)
+- Unfortunately, the XG Boost Model did not perform well with a mean square error rate below
+```
+MSE: 1801.915228
+```
